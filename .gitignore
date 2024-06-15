@@ -1,0 +1,26 @@
+firmware/build/
+firmware/fs/
+
+firmware/makefsdata
+
+# dependencies
+web-interface/node_modules
+web-interface/.pnp
+.pnp.js
+
+# testing
+web-interface/coverage
+
+# production
+web-interface/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
